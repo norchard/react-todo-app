@@ -1,5 +1,5 @@
 import React from "react"
-import TodosList from "./TodosList"
+import TodoList from "./TodoList"
 
 class TodoContainer extends React.Component {
     state = {
@@ -24,7 +24,7 @@ class TodoContainer extends React.Component {
     render() {
         return (
             <div>
-                <TodosList todos={this.state.todos} />
+                <TodoList todos={this.state.todos} />
             </div>
         )
     }
